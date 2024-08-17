@@ -160,17 +160,19 @@
     <section style="background: linear-gradient(0deg, #f1f1f1 3%, #FF9100 96%); padding: 5px;" id="costmer">
         <div class="container" style="padding: 5px;">
             <h3 class="text-center" style="padding-top: 30px; color:#800000">عملائنا</h3>
+            @foreach ($cli as $cl)
             <div class="row" style="margin-top: 30px; border-radius: 35px; box-shadow: 0 5px 25px; padding: 20px; margin: 20px auto; background-color:#800000">
-                @foreach ($cli as $cl)
+               
                 <div class="col-md-12 py-3 py-md-0">
 
-                            <h5 class=" text-center"> {{$cl->title}} </h5>
+                            <h5 class=" text-center " style = "color:#F7F7F7"> {{$cl->title}} </h5>
                             <img src="../{{$cl->img}}" alt="" class=" col-md-12 py-3 py-md-0" height="200px" style="margin-top: 15px;">
-                            <p class="text-center" style="margin-top: 15px">{{$cl->description}} </p>
+                            <p class="text-center" style="margin-top: 15px; color:#F7F7F7">{{$cl->description}} </p><br>
 
                 </div>
-                @endforeach
+               
             </div>
+             @endforeach
         </div>
     </section>
 
