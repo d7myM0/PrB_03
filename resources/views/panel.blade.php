@@ -31,7 +31,7 @@
                 <a class="nav-link" href="/msg"> رسائل الزوار </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/home">  صفحة الموقع</a>
+                <a class="nav-link" href="/">  صفحة الموقع</a>
               </li>
             </ul>
           </div>

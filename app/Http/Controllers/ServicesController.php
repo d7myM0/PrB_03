@@ -127,7 +127,7 @@ class ServicesController extends Controller
         ]);
 
         $message->save();
-        return redirect('/home')->with('success', 'message sending successfully.');
+        return redirect('/')->with('success', 'message sending successfully.');
 
     }
 

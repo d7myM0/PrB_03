@@ -24,7 +24,7 @@ Route::get('/pn', function () {
 Route::post('/homedata', [ServicesController::class, 'homedata']);
 Route::post('/clientdata', [ServicesController::class, 'clientdata']);
 
-Route::get('/home', [ServicesController::class, 'homeview']);
+Route::get('/', [ServicesController::class, 'homeview']);
 Route::get('/cnt', [ServicesController::class, 'updview']);
 
 
