@@ -82,7 +82,7 @@
           </nav>
 
 
-          <div class="content col-md-20 py-3 py-md-0" id="home" dir="rtl" class="p-10" style="margin-top: 150px;">
+          <div class="content col-md-20 py-3 py-md-0" id="home" dir="rtl" class="p-10" style="margin-top: 100px;">
 
             <h1>
                 بانوراما القصيم للبرمجة والتصميم
